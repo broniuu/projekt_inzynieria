@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="7qSrFLFLyl8P3oUnoNFJ" name="przypadki użycia">
-        <mxGraphModel dx="1145" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="897" dy="1117" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -123,12 +123,12 @@
         </mxGraphModel>
     </diagram>
     <diagram id="es7fXgH_T1lXEX4MCUzB" name="klasy">
-        <mxGraphModel dx="1972" dy="1906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1724" dy="2286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="u_6tFe_aFCOMbGWRkTCL-0"/>
                 <mxCell id="u_6tFe_aFCOMbGWRkTCL-1" parent="u_6tFe_aFCOMbGWRkTCL-0"/>
                 <mxCell id="u_6tFe_aFCOMbGWRkTCL-10" value="Punkt Alarmowo Dyspozycyjny" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="u_6tFe_aFCOMbGWRkTCL-1" vertex="1">
-                    <mxGeometry x="-85" y="210" width="310" height="138" as="geometry">
+                    <mxGeometry x="-85" y="210" width="310" height="164" as="geometry">
                         <mxRectangle x="-85" y="210" width="210" height="26" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -146,6 +146,9 @@
                 </mxCell>
                 <mxCell id="u_6tFe_aFCOMbGWRkTCL-22" value="rozpocznijAkcjeGaśniczą(alarm: Alarm)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="u_6tFe_aFCOMbGWRkTCL-10" vertex="1">
                     <mxGeometry y="112" width="310" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="0jVsZeTJknB_gaC-xXLQ-1" value="zakończAkcjeGaśniczą(akcja gaśnicza: Akcja gaśnicza)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u_6tFe_aFCOMbGWRkTCL-10">
+                    <mxGeometry y="138" width="310" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="u_6tFe_aFCOMbGWRkTCL-39" value="Raport" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="u_6tFe_aFCOMbGWRkTCL-1" vertex="1">
                     <mxGeometry x="350" y="-60" width="257.5" height="190" as="geometry">
@@ -252,24 +255,33 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="HfVfvW0PVo5bobGDfaxd-8" value="Zastęp Straży Pożarnej" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="u_6tFe_aFCOMbGWRkTCL-1" vertex="1">
-                    <mxGeometry x="-610" y="210" width="160" height="138" as="geometry">
+                    <mxGeometry x="-690" y="210" width="240" height="216" as="geometry">
                         <mxRectangle x="-413" y="220" width="160" height="26" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="HfVfvW0PVo5bobGDfaxd-9" value="numerZastępu: Integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="HfVfvW0PVo5bobGDfaxd-8" vertex="1">
-                    <mxGeometry y="26" width="160" height="26" as="geometry"/>
+                    <mxGeometry y="26" width="240" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="HfVfvW0PVo5bobGDfaxd-14" value="IlośćWozów: Integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="HfVfvW0PVo5bobGDfaxd-8" vertex="1">
-                    <mxGeometry y="52" width="160" height="26" as="geometry"/>
+                    <mxGeometry y="52" width="240" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="HfVfvW0PVo5bobGDfaxd-15" value="ilośćStrażaków: Integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="HfVfvW0PVo5bobGDfaxd-8" vertex="1">
-                    <mxGeometry y="78" width="160" height="26" as="geometry"/>
+                    <mxGeometry y="78" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="0jVsZeTJknB_gaC-xXLQ-4" value="jednostka: Jednostka" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HfVfvW0PVo5bobGDfaxd-8">
+                    <mxGeometry y="104" width="240" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="HfVfvW0PVo5bobGDfaxd-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="HfVfvW0PVo5bobGDfaxd-8" vertex="1">
-                    <mxGeometry y="104" width="160" height="8" as="geometry"/>
+                    <mxGeometry y="130" width="240" height="8" as="geometry"/>
                 </mxCell>
                 <mxCell id="HfVfvW0PVo5bobGDfaxd-20" value="gaś()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="HfVfvW0PVo5bobGDfaxd-8" vertex="1">
-                    <mxGeometry y="112" width="160" height="26" as="geometry"/>
+                    <mxGeometry y="138" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="0jVsZeTJknB_gaC-xXLQ-2" value="przemieszczajSię(punkt docelowy: String)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HfVfvW0PVo5bobGDfaxd-8">
+                    <mxGeometry y="164" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="0jVsZeTJknB_gaC-xXLQ-3" value="powrótDoJednostki(jednostka: Jednostka)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HfVfvW0PVo5bobGDfaxd-8">
+                    <mxGeometry y="190" width="240" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="HfVfvW0PVo5bobGDfaxd-12" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="u_6tFe_aFCOMbGWRkTCL-1" source="u_6tFe_aFCOMbGWRkTCL-13" target="HfVfvW0PVo5bobGDfaxd-2" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -361,16 +373,16 @@
                 <mxCell id="VnQMXYi_Lo9398gKNag1-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="VnQMXYi_Lo9398gKNag1-0" vertex="1">
                     <mxGeometry y="52" width="220" height="8" as="geometry"/>
                 </mxCell>
-                <mxCell id="CLz3sODJWUTL9tyHsiLU-0" value="dogaszaj(&#10;zastęp: List&lt;Zastęp Straży Pożarnej&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VnQMXYi_Lo9398gKNag1-0">
+                <mxCell id="CLz3sODJWUTL9tyHsiLU-0" value="dogaszaj(&#10;zastęp: List&lt;Zastęp Straży Pożarnej&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="VnQMXYi_Lo9398gKNag1-0" vertex="1">
                     <mxGeometry y="60" width="220" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="CLz3sODJWUTL9tyHsiLU-1" value="organizujObroneBliższą(&#10;zastęp: List&lt;Zastęp Straży Pożarnej&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VnQMXYi_Lo9398gKNag1-0">
+                <mxCell id="CLz3sODJWUTL9tyHsiLU-1" value="organizujObroneBliższą(&#10;zastęp: List&lt;Zastęp Straży Pożarnej&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="VnQMXYi_Lo9398gKNag1-0" vertex="1">
                     <mxGeometry y="100" width="220" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="CLz3sODJWUTL9tyHsiLU-2" value="organizujObroneDalszą(&#10;zastęp: List&lt;Zastęp Straży Pożarnej&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VnQMXYi_Lo9398gKNag1-0">
+                <mxCell id="CLz3sODJWUTL9tyHsiLU-2" value="organizujObroneDalszą(&#10;zastęp: List&lt;Zastęp Straży Pożarnej&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="VnQMXYi_Lo9398gKNag1-0" vertex="1">
                     <mxGeometry y="140" width="220" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="CLz3sODJWUTL9tyHsiLU-3" value="organizujNatarcie(&#10;zastęp: List&lt;Zastęp Straży Pożarnej&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VnQMXYi_Lo9398gKNag1-0">
+                <mxCell id="CLz3sODJWUTL9tyHsiLU-3" value="organizujNatarcie(&#10;zastęp: List&lt;Zastęp Straży Pożarnej&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="VnQMXYi_Lo9398gKNag1-0" vertex="1">
                     <mxGeometry y="180" width="220" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="VnQMXYi_Lo9398gKNag1-6" value="1" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="u_6tFe_aFCOMbGWRkTCL-1" target="u_6tFe_aFCOMbGWRkTCL-13" edge="1">
@@ -385,11 +397,14 @@
                         <mxPoint x="34" y="-16" as="offset"/>
                     </mxGeometry>
                 </mxCell>
+                <mxCell id="0jVsZeTJknB_gaC-xXLQ-14" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;datatype&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Jednostka&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp;nazwa: String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp;nrJednostki: Integer&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&amp;nbsp; zastęp: List&amp;lt;Zastęp Straży Pożarnej&amp;gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="u_6tFe_aFCOMbGWRkTCL-1">
+                    <mxGeometry x="-685" y="480" width="230" height="100" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="GDWv5tRCbuxtcDysi7sM" name="sekwencje">
-        <mxGraphModel dx="2201" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="2083" dy="1564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="G091a8zKf5RpqMp1MwRU-0"/>
                 <mxCell id="G091a8zKf5RpqMp1MwRU-1" parent="G091a8zKf5RpqMp1MwRU-0"/>
@@ -645,7 +660,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="ZX_3NSOSGU89McWQ72IX" name="stany">
-        <mxGraphModel dx="1374" dy="2053" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1142" dy="2591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="KwnWTXt6Owu0txB4i5A7-0"/>
                 <mxCell id="KwnWTXt6Owu0txB4i5A7-1" parent="KwnWTXt6Owu0txB4i5A7-0"/>
@@ -775,7 +790,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="Xit-3QhwF_3PZLJN1th6" name="aktywności">
-        <mxGraphModel dx="2201" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1455" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="AYvsQdWxQ_aOjQQguWSd-0"/>
                 <mxCell id="AYvsQdWxQ_aOjQQguWSd-1" parent="AYvsQdWxQ_aOjQQguWSd-0"/>
