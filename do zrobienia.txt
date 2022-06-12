@@ -1,0 +1,7 @@
+Jakub:
+
+Przypadki użycia, Scenariusze, opis systemu
+
+Filip:
+
+Stany, aktywności, sekwencje
